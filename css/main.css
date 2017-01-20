@@ -1,0 +1,195 @@
+/* Base Styles */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+	
+#about, #contact {
+    height: 600px;
+}
+
+#work {
+	height:400px;
+	padding-top:20px;
+}
+
+/* Grid */
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	width: 400px;
+}
+
+/* Header */
+
+header {
+    background-image: url("../img/main-photo6.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 { 
+	color: #000000;
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	font-weight:heavy;
+    padding: 50px 0;
+}
+
+nav {
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 60px; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* About */
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+	font-family: 'Lora', serif;
+	font-size: 36px;
+}
+
+#about p {
+    color: #7F7F7F;
+    font-size: 21px;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/* Work */
+
+#work {
+	background-color:#d8d8d0;
+	text-align: center;
+}
+
+#work .full-width {
+    padding: 10px 0;
+}
+ 
+#work i {
+	padding:20px;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    margin: 0 auto;
+    width: 400px; /* << suspicious bugger */
+}
+ 
+#work p {
+    color: #2B2B2B;
+    font-family: font-family: 'Lora';
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/* Contact */
+
+#contact {
+	background-color:#EBEBEB;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact-img { 
+    border: 12px solid #d8d8d0;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size:  36px;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    color: #bbc085;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+
+/* #contact ul i {
+    padding-right: 35px;
+} */
+
+#contact ul .codepen {
+	padding-right:20px;
+}
+
+#contact ul .twitter {
+	padding-right:20px;
+}
+
+#contact ul .instagram {
+	padding-right:20px;
+}
+
+#contact ul .linked {
+	padding-right:20px;
+}
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0;
+    width: 1000px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
